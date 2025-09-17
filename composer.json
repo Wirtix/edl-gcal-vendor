@@ -1,0 +1,14 @@
+{
+  "name": "eduloop/edl-gcal-vendor",
+  "description": "Vendor for google/apiclient",
+  "type": "project",
+  "require": {
+    "google/apiclient": "^2.17"
+  },
+  "config": {
+    "platform-check": false,
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
